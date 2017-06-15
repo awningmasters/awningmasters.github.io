@@ -9,8 +9,8 @@
  * https://opensource.org/licenses/MIT
  */
 
-#blueimp-gallery-carousel {
-  max-width: 800px;
+#gallerycarousel {
+  max-width: 750px;
   margin: 0 auto;
   padding: 1em;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
