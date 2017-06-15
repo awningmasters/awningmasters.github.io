@@ -4496,7 +4496,7 @@ a {
     -o-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2)
 }
 
-div#carousel {
+div.carousel {
   perspective: 1200px;
   background: #100000;
   padding-top: 10%;
@@ -4504,13 +4504,13 @@ div#carousel {
   margin-bottom: 3rem;
   overflow: hidden;
 }
-figure#spinner {
+figure.spinner {
   transform-style: preserve-3d;
   height: 300px;
   transform-origin: 50% 50% -500px;
   transition: 1s;
 }
-figure#spinner img {
+figure.spinner img {
   width: 40%;
   max-width: 425px;
   position: absolute;
@@ -4518,31 +4518,31 @@ figure#spinner img {
   transform-origin: 50% 50% -500px;
   outline: 1px solid transparent;
 }
-figure#spinner img:nth-child(1) {
+figure.spinner img:nth-child(1) {
   transform: rotateY(0deg);
 }
-figure#spinner img:nth-child(2) {
+figure.spinner img:nth-child(2) {
   transform: rotateY(-45deg);
 }
-figure#spinner img:nth-child(3) {
+figure.spinner img:nth-child(3) {
   transform: rotateY(-90deg);
 }
-figure#spinner img:nth-child(4) {
+figure.spinner img:nth-child(4) {
   transform: rotateY(-135deg);
 }
-figure#spinner img:nth-child(5) {
+figure.spinner img:nth-child(5) {
   transform: rotateY(-180deg);
 }
-figure#spinner img:nth-child(6) {
+figure.spinner img:nth-child(6) {
   transform: rotateY(-225deg);
 }
-figure#spinner img:nth-child(7) {
+figure.spinner img:nth-child(7) {
   transform: rotateY(-270deg);
 }
-figure#spinner img:nth-child(8) {
+figure.spinner img:nth-child(8) {
   transform: rotateY(-315deg);
 }
-div#carousel ~ span {
+div.carousel ~ span {
   color: #fff;
   margin: 5%;
   display: inline-block;
@@ -4554,7 +4554,7 @@ div#carousel ~ span {
   border-bottom: none;
   line-height: 0;
 }
-div#carousel ~ span:hover {
+div.carousel ~ span:hover {
   color: #888;
   cursor: pointer;
 }
