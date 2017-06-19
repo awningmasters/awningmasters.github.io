@@ -816,5 +816,9 @@ svg{
   border-radius: 0 0 100px 100px;
 }
 
+.padding {
+  padding: 3px; 
+}
+
 
 

@@ -3620,9 +3620,9 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
-    .img-responsive {
+    /*.img-responsive {
         display: none !important
-    }
+    }*/
     .footer-section .line {
         list-style-position: inside !important
     }
