@@ -3716,7 +3716,10 @@ a {
         text-align: center
     }
     .fullpage-cont .main_hero .hero_img {
-        max-width: calc(100vw - 70%)
+        max-width: calc(100vw - 50%);
+        display: block;
+        margin: 0 auto;
+        
     }
 }
 
