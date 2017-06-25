@@ -875,3 +875,10 @@ p {
 .morelink {
     display: block;
 }
+
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
