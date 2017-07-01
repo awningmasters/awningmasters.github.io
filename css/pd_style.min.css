@@ -373,6 +373,52 @@ ol {
     transition: all 0.75s
 }
 
+/*sadsa*/
+
+
+ .headerBtns {
+    padding-top: 50px
+}
+
+.headerBtns .btn {
+    height: 48px;
+    width: 180px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 600;
+    float: none
+}
+
+.headerBtns .btn:hover {
+    color: #fff
+}
+
+.headerBtns .btn1 {
+    background-color: #fd3b5d;
+    color: #fff;
+    margin-right: 20px;
+    border: solid 2px #fd3b5d
+}
+
+.headerBtns .btn1:hover {
+    color: #fd3b5d;
+    background-color: #ffffff;
+    transition: all 0.75s
+}
+
+.headerBtns .btn2 {
+    color: #ffffff;
+    background-color: #fd3b5d;
+    border: solid 2px #fd3b5d
+}
+
+.headerBtns .btn2:hover {
+    color: #fff;
+    border: solid 2px #fd3b5d;
+    transition: all 0.75s
+}
+/*asdsa*/
 header {
     height: 150px
 }
@@ -3326,7 +3372,8 @@ a {
     }
     .sell-group h5,
     .improve-part h5 {
-        font-size: 240%
+        font-size: 215%;
+        padding: 10px;
     }
     .sell-group .btn,
     .improve-part .btn {
