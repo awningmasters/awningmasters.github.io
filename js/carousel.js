@@ -16,7 +16,9 @@ jQuery(function($) {
 
         settings: {
             sliderAutoplaySpeed: 7000,
-            sliderSpeed: 1200
+            sliderSpeed: 1200,
+            mobileFirst: true,
+            adaptiveHeight: true
         },
 
         elements: {
@@ -51,8 +53,9 @@ jQuery(function($) {
                 dots: true,
                 autoplay: true,
                 autoplaySpeed: set.sliderAutoplaySpeed,
-                fade: false,
+                fade: true,
                 speed: set.sliderSpeed,
+                lazyLoad: 'progressive',
                 pauseOnHover: false,
                 pauseOnDotsHover: true
             });
@@ -133,5 +136,6 @@ jQuery(function($) {
     $(window).resize(function() {
       $('.slick-slide .img--holder').height($(window).height());
     });
+    $
 
 });
