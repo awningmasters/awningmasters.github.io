@@ -166,23 +166,3 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: contain;
 }
 }
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
-.slick-slide .img--holder {
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-}
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
-.slick-slide .img--holder {
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-}
-}
