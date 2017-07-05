@@ -308,13 +308,11 @@
             </div> -->
 
   <div class="container-fluid optmize-group">
-    <div id="slick">
+    <div id="slick" data-slick='{"mobileFirst": true}'>
       <div>
         <div class="img--holder" style="background-image: url(images/carousel/pic1.jpg);"></div>
       </div>
-      <div>
-        <div class="img--holder" style="background-image: url(images/carousel/pic2.jpg);"></div>
-      </div>
+     
       <div>
         <div class="img--holder" style="background-image: url(images/carousel/pic3.jpg);"></div>
       </div>
@@ -326,6 +324,9 @@
       </div>
       <div>
         <div class="img--holder" style="background-image: url(Drop-Shade-201.jpg);"></div>
+      </div>
+      <div>
+        <div class="img--holder" style="background-image: url(patio1/gardenawning2.jpg);"></div>
       </div>
       
   </div>
@@ -417,8 +418,8 @@
      <a href="patio1/tensile membrane 2.jpg" title="Tensile Membranes">
         <img src="patio1/tensile membrane 2.jpg">
     </a> 
-     <a href="patio1/awning awning master roll up blind.jpg" title="Roll up blind">
-        <img src="patio1/awning awning master roll up blind.jpg">
+     <a href="patio1/rollupblind.jpg" title="Roll up blind">
+        <img src="patio1/rollupblind.jpg">
     </a> 
 
 
@@ -1096,7 +1097,10 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
    <script type="text/javascript" src="js/carousel.js"></script>
    <script type="text/javascript" src="js/slick.js"></script>
-
+   <script type="text/javascript">
+     $(#slick).slick()
+   </script>
+    
     <script>
           $(function(){
              $(".element").typed({
